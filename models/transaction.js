@@ -26,6 +26,9 @@ const TransactionsSchema = new Schema({
     tx_time: {
         type: Schema.Types.Number
     },
+    remark: {
+        type: Schema.Types.String
+    },
     date: {
         type: Date,
         default: Date.now
